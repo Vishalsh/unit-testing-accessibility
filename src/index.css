@@ -1,0 +1,64 @@
+#root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  padding-top: 200px;
+  justify-content: center;
+  height: 100vh;
+}
+
+.app-container {
+  display: flex;
+}
+
+.form-container {
+  flex: 1;
+  justify-content: center;
+}
+
+.form-container:first-child {
+  border-right: 1px solid #c2c2c2;
+}
+
+form {
+  width: 400px;
+}
+
+section {
+  display: flex;
+}
+
+h3 {
+  margin-bottom: 30px;
+}
+
+h4 {
+  margin: 8px 0 0 4px;
+}
+
+.logo {
+  height: 3em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
