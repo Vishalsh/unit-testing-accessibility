@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <div className='app-container'>      
       <section className='form-container'>
         <div>
-          <h3>Unaccessible App</h3>
+          <h3>Inaccessible App</h3>
           <UnaccessibleApp />
         </div>
       </section>
