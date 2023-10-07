@@ -44,6 +44,7 @@ function AccessibileApp() {
               id="firstName"
               value={firstName}
               onChange={onChangeFirstName}
+              autoComplete="off"
             />
           </div>
           <div className="mb-3">
@@ -55,6 +56,7 @@ function AccessibileApp() {
               id="lastName"
               value={lastName}
               onChange={onChangeLastName}
+              autoComplete="off"
             />
           </div>
 

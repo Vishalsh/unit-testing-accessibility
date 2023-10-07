@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { axe } from "vitest-axe";
 
-test("welcomes the user after submitted the form", async () => {
+test("welcomes the user after submitting the form", async () => {
   const user = userEvent.setup();
   render(<AccessibleApp />);
 
@@ -25,5 +25,5 @@ test("welcomes the user after submitted the form", async () => {
 test('accessiblity checks', async () => {
   const { container } = render(<AccessibleApp />);
 
-	expect(await axe(container)).toHaveNoViolations();
+  expect(await axe(container)).toHaveNoViolations();
 });

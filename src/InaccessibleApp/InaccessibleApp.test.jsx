@@ -1,14 +1,14 @@
-import UnaccessibleApp from "./UnaccessibleApp";
+import InaccessibleApp from "./InaccessibleApp";
 import { render, screen, fireEvent } from "@testing-library/react";
 
-test("welcomes the user after submitted the form", async () => {
-  render(<UnaccessibleApp />);
+test("welcomes the user after submitting the form", async () => {
+  render(<InaccessibleApp />);
 
   const firstNameInput = screen.getByTestId("first-name");
-  fireEvent.change(firstNameInput, { target: { value: 'Harry' } })
+  fireEvent.change(firstNameInput, { target: { value: 'Harry' } });
 
   const lastNameInput = screen.getByTestId("last-name");
-  fireEvent.change(lastNameInput, { target: { value: 'Potter' } })
+  fireEvent.change(lastNameInput, { target: { value: 'Potter' } });
 
   const submitButton = screen.getByTestId("submit-form");
 

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import reactLogo from "../assets/react.svg";
 
-function UnaccessibleApp() {
+function InaccessibleApp() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
@@ -72,4 +72,4 @@ function UnaccessibleApp() {
   );
 }
 
-export default UnaccessibleApp;
+export default InaccessibleApp;

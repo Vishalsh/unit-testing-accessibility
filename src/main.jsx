@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import AccessibleApp from './AccessibleApp/AccessibleApp'
-import UnaccessibleApp from './UnaccessibleApp/UnaccessibleApp'
+import UnaccessibleApp from './InaccessibleApp/InaccessibleApp'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
