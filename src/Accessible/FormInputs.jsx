@@ -1,7 +1,7 @@
 import { useState } from "react";
 import reactLogo from "../assets/react.svg";
 
-function AccessibileApp() {
+function FormInputs() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
@@ -74,4 +74,4 @@ function AccessibileApp() {
   );
 }
 
-export default AccessibileApp;
+export default FormInputs;
